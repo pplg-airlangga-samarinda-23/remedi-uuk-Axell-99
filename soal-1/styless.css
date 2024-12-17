@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+header {
+    background-color: #f9e79f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    color: #333;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+ 
+.faq-isi{
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.answer {
+    color: blue;
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #047baa;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+footer {
+    background-color: #f9e79f;
+    text-align: left;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 20px;
+}

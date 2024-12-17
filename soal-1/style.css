@@ -1,0 +1,98 @@
+body {
+    background-color: #fdfdfd;
+}
+
+header {
+    background-color: #f9e79f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.isi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tulisan {
+    width: 40%;
+    text-align: justify;
+    margin: 10px;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.image {
+    width: 75%;
+    height: 70%;
+    overflow: visible;
+}
+
+.tulisann {
+    width: 40%;
+    text-align: justify;
+    margin: 10px;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.box {
+    width: 400px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    background-color: #d6eaf8;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f9e79f;
+    text-align: left;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 20px;
+}
